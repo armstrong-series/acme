@@ -11,9 +11,9 @@ This is a proof-of-concept implementation of a sales basket system for Acme Widg
 1. Clone the Repository
 1. Install Docker and Docker Compose.
 2. Run `docker-compose up -d` to start the container.
-3. Run  to execute tests and static analysis.
+3. Run to execute tests and static analysis.
 ```bash
-./run-tests.sh
+   chmod +x run-tests.sh && ./run-tests.sh
 ```
 
 ## Usage
