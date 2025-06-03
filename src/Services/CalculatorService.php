@@ -49,7 +49,7 @@ class CalculatorService implements CalculatorContract
                 return $rule->getCost();
             }
         }
-        return $deliveryRules[0]->getCost() ?? 4.95;
+        return $deliveryRules[0]->getCost();
 
     }
 
